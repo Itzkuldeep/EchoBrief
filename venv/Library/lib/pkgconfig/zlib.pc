@@ -1,0 +1,13 @@
+prefix=D:/Audio Summarizer/venv/Library
+exec_prefix=D:/Audio Summarizer/venv/Library
+libdir=D:/Audio Summarizer/venv/Library/lib
+sharedlibdir=D:/Audio Summarizer/venv/Library/lib
+includedir=D:/Audio Summarizer/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
